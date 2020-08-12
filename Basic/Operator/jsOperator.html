@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript Operators</h2>
+
+    <p>The product discount</p>
+
+    <p id="demo"></p>
+
+    <script>
+      var sallingprice = 500;
+      var listingPrice = 7000;
+
+      var discountpercentage =
+        ((listingPrice - sallingprice) / listingPrice) * 100;
+      console.log("The discount is:" + discountpercentage);
+
+      var DisplayDiscountpercentage = Math.round(discountpercentage);
+
+      console.log(DisplayDiscountpercentage + "%Off");
+      document.getElementById("demo").innerHTML = DisplayDiscountpercentage;
+    </script>
+  </body>
+</html>

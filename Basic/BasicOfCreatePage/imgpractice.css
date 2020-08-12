@@ -1,0 +1,63 @@
+.main-header {
+  padding-left: 25%;
+  padding-right: 25%;
+  height: 56px;
+}
+
+body {
+  /*background-image: url("../Image/ccc.jpg");*/
+
+  background: linear-gradient(red, yellow, blue, orange);
+
+  background-position: center;
+}
+h1 {
+  font-weight: normal;
+  font: size 100px;
+  color: red;
+  text-align: center;
+  text-shadow: 5px 8px 0 #222;
+  line-height: 1.3px;
+  height: auto;
+  letter-spacing: 1px;
+}
+h2 {
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  text-shadow: salmon;
+  height: auto;
+}
+
+.main-class p {
+  font-size: medium;
+  content: normal;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 15px 20px -12px rgba(0, 0, 0, 0, 0.8);
+}
+img {
+  border-image: stretch;
+  width: max-content;
+  align-items: center;
+}
+
+@media (max-width: 960px) {
+  body {
+    background: tomato;
+  }
+  p {
+    color: white;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background: yellow;
+  }
+  p {
+    color: purple;
+  }
+}

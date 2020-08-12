@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="ID"></p>
+
+    <!--find Random Number Between 1 and HighNumber (HighNumber given by user)-->
+    <!-- <script>
+      //collect input from user
+      var number = prompt(" Please enter the number:");
+
+      //convert the input to a number
+      var HighNumber = parseInt(number);
+
+      if (HighNumber) {
+        //generate a random number
+        var randomNumber = Math.floor(Math.random() * HighNumber + 1);
+
+        //create a message display the number
+        document.getElementById("ID").innerHTML =
+          randomNumber + " is a Random Number Between 1 to " + HighNumber;
+      } else {
+        document.getElementById("ID").innerHTML =
+          "You need to provide a valid Number ,Try Again!";
+      }
+    </script> -->
+
+    <!--Find Random Number Between Two numbers Both Number given by User-->
+
+    <script>
+      //collect input from user
+      var inputLow = prompt("Enter the lowNumber:");
+      var inputHigh = prompt("Enter the highNumber");
+
+      //convert the input to a number
+      var lowNumber = parseInt(inputLow);
+      var highNumber = parseInt(inputHigh);
+
+      if (lowNumber && highNumber) {
+        //generate a random number
+        var randomNumber =
+          Math.floor(Math.random() * (highNumber - lowNumber + 1)) + lowNumber;
+
+        //create a message display the number
+        document.getElementById("ID").innerHTML =
+          randomNumber +
+          " is a Random Number Between " +
+          lowNumber +
+          " to " +
+          highNumber;
+      } else {
+        document.getElementById("ID").innerHTML =
+          "You need to provide two valid Numbers, Try Again!";
+      }
+    </script>
+  </body>
+</html>
