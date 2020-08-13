@@ -1,0 +1,42 @@
+export let fleet = [
+  {
+    license: "A123",
+    type: "drone",
+    model: "A1",
+    airTimeHours: "4562",
+    base: "india",
+    latLong: "4535.4-45345",
+  },
+  {
+    license: "xys3",
+    type: "drone",
+    model: "A21",
+    airTimeHours: "455462",
+    base: "new York",
+    latLong: "4535.4-45345",
+  },
+  {
+    license: "123as",
+    type: "drone",
+    model: "S22",
+    airTimeHours: "11162",
+    base: "new York",
+    latLong: "455674-5345",
+  },
+  {
+    license: "123as",
+    type: "car",
+    make: "Tesla",
+    model: "trans",
+    miles: "234",
+    latLong: "1234-5345",
+  },
+  {
+    license: "SWQ123",
+    type: "car",
+    make: "Tesla",
+    model: "Quick Trans",
+    miles: "11234",
+    latLong: "9234-5345",
+  },
+];
