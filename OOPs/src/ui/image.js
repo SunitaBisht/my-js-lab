@@ -10,3 +10,4 @@ export class Image extends BaseElement {
     <img src="{this.fileName}" style="width:100%;"/>    
     `;
   }
+}
